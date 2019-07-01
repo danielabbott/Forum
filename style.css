@@ -1,0 +1,31 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+body {
+    background-color: #d0d0d0;
+}
+
+#header {
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#footer {
+	width: 100%;
+	height: 50px;
+}
+
+#sectionHeader {
+    border: 1px solid black;
+}
+
+#post {
+	color: white;
+	background-color: #a0a0b0;
+}
+
+p.error {
+	color: #d02020;
+}

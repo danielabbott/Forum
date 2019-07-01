@@ -1,0 +1,7 @@
+To set up:
+1. Create a MySQL database from forum.sql
+2. Set the variables in connect.php
+3. Set the value in pepper.php to a unique string
+
+
+*** This is a personal, educational project. Feel free to use the code as you please. ***
