@@ -4,6 +4,7 @@ include 'connect.php';
 
 unset($_SESSION['username']);
 unset($_SESSION['userid']);
+unset($_SESSION['privilege']);
 
 include 'header.php';
 

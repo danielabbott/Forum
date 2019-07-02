@@ -44,8 +44,11 @@ if(!$result || $result->num_rows == 0) {
 	</h3>
 	<?php
 
-    if($record['PrivilegeLevel'] > 0) {
-        echo '<p class="error">Admin</p>';
+    if($record['PrivilegeLevel'] == 1) {
+        echo '<p style="color: red;">Admin</p>';
+    }
+    else if($record['PrivilegeLevel'] == 2) {
+        echo '<p style="color: gold; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">Super Admin</p>';
     }
 
     if($record['ProfilePicture'] != null) {
@@ -76,6 +79,10 @@ if(!$result || $result->num_rows == 0) {
 
 
 	<?php
+
+	if(isset($_SESSION['privilege']) && $_SESSION['privilege'] >= 2 && $record['PrivilegeLevel'] < 2) {
+		 echo '<button onclick="location.href=\'setpriv.php?id=' . $_GET['id'] . '\'" type="button">Toggle Admin Status</button>';
+	}
 
 }
 
