@@ -19,7 +19,7 @@ if(!$result || $result->num_rows == 0) {
 	echo '<p class="error">Error: Thread does not exist</p>';
 } else {
 	$record = $result->fetch_assoc();
-	echo '<div id="sectionHeader">';
+	echo '<br/><div id="sectionHeader">';
 
     ?>
     
@@ -38,7 +38,7 @@ if(!$result || $result->num_rows == 0) {
 
     <?php
 
-	echo '</div>';
+	echo '</div><br/>';
 
 	/* Get posts in thread */
 

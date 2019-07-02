@@ -1,5 +1,5 @@
 <footer id="footer">
-<p>Forum software coded in PHP, HTML, and CSS. Backend uses MariaDB (MySQL).<br>This is an educational project.</p>
+Forum software coded in PHP, HTML, and CSS. Backend uses MySQL. This is an educational project.
 </footer>
 </body>
 </html>

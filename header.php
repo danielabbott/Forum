@@ -4,13 +4,13 @@
 <head>
     <title>Forum</title>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body id='body'>
 
 <div id='header'>
-	<a href='index.php'><h1 style="color:black;">Forums</h1></a>
-</div>
+	<a href='index.php' id="ForumName"><h1 style="color:black;">Forums</h1></a>
 
 <div>
 
@@ -35,6 +35,7 @@ if(isset($_SESSION['username'])) {
 }
 ?>
 
+</div>
 </div>
 
 <?php

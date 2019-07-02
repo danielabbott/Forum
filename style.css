@@ -4,28 +4,51 @@ table, th, td {
 
 body {
     background-color: #d0d0d0;
+    padding-left : 10px;
+    padding-right : 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#ForumName {
+	text-decoration: none;
 }
 
 #header {
 	width: 100%;
 	top: 0;
 	left: 0;
+    background-color: #e0e0e0;
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
 
 #footer {
+    background-color: #c0c0c0;
 	width: 100%;
-	height: 50px;
+    position: fixed;
+    bottom: 0;
+	height: 25px;
+	left:0;
 }
 
 #sectionHeader {
-    border: 1px solid black;
+    background-color: #d5d5f5;
 }
 
 #post {
-	color: white;
-	background-color: #a0a0b0;
+	background-color: #d5d5d5;
 }
 
 p.error {
 	color: #d02020;
+}
+
+button, input[type=button], input[type=submit], input[type=reset] {
+	border-color: white;
+	background-color: #303030;
+	color: white;
+}
+
+button:hover, input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover { 
+  background-color: #606060;
 }
